@@ -215,7 +215,6 @@ class CHARLEE(nn.Module):
             start_point = slice_i * self.slice_length
             end_point = (slice_i + 1) * self.slice_length
             if slice_i == self.model_config['num_checkpoints']:
-                ##Here we should add the remainder of the timesteps but another slice lenth will cover the end of the series anyway
                 end_point = self.data_config['timesteps']
 
             ## Calculate updated hidden state

@@ -205,10 +205,10 @@ if __name__ == "__main__":
 
     if model_config['pretrained']:
         model_config['random_seed'] = int(model_config['pretrained_framework_path'].split(".")[0].split("_")[-1])
-    else:
-        torch.manual_seed(model_config['random_seed'])
-        np.random.seed(model_config['random_seed'])
-        torch.autograd.set_detect_anomaly(True)
+
+    torch.manual_seed(model_config['random_seed'])
+    np.random.seed(model_config['random_seed'])
+    torch.autograd.set_detect_anomaly(True)
 
     ## Set dataset directory and name here
     data_dir = "Datasets/"
