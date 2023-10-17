@@ -2,7 +2,7 @@
 
 This repository contains the official implementation of the CHARLEE framework described
 in [Channel-Adaptive Early Exiting using Reinforcement Learning for Multivariate Time Series Classification](https://research.vu.nl/en/publications/channel-adaptive-early-exiting-using-reinforcement-learning-for-m), accepted
-at ICMLA 2023. The [arXiv version](https://arxiv.org/abs/2306.14606) has a different title and abstract for double-blind review purposes.
+at ICMLA 2023. The extended [arXiv version](https://arxiv.org/abs/2306.14606) has a different title and abstract for double-blind review purposes.
 
 ## Requirements
 
