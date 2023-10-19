@@ -29,3 +29,5 @@ based [on the code for Stop&Hop](https://github.com/Thartvigsen/StopAndHop), an 
 The models are evaluated on a subset of
 the [UEA multivariate dataset collection](https://www.timeseriesclassification.com/dataset.php). Moreover, we utilized datasets based on the [MAFAULDA
 Machinery Fault Database](https://www02.smt.ufrj.br/~offshore/mfs/page_01.html) and the [Case Western Reserve University Bearing Data](https://engineering.case.edu/bearingdatacenter).
+
+The synthetic dataset used is included in the [data](data) directory.
